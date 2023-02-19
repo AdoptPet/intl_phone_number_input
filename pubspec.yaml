@@ -10,7 +10,10 @@ dependencies:
   flutter:
     sdk: flutter
 
-  libphonenumber_plugin: ^0.2.5
+  libphonenumber_plugin:
+    git:
+      url: https://github.com/AdoptPet/plugin_libphonenumber
+      ref: fixed
   equatable: ^2.0.5
   collection: ^1.16.0
 
